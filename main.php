@@ -5,7 +5,11 @@
 
     <div id="main_container">
         <div id="hot_item_container">
-            <h4>인기 상품</h4>
+            <div class="hot_item_txt">
+                <div class="hot_item_txt_center">
+                    <h4>인기 상품</h4>
+                </div>
+            </div>
             <ul>
                 <li class="hot_item">
                     <div class="image_wrapper">
@@ -15,7 +19,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hot_item_name">상품이름</div>
+                    <div class="hot_item_name">
+                        <a href="">상품이름</a>
+                    </div>
                     <div class="hot_item_price">가격</div>
                 </li>
                 <li class="hot_item">
@@ -26,7 +32,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hot_item_name">상품이름</div>
+                    <div class="hot_item_name">
+                        <a href="">상품이름</a>
+                    </div>
                     <div class="hot_item_price">가격</div>
                 </li>
                 <li class="hot_item">
@@ -37,7 +45,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hot_item_name">상품이름</div>
+                    <div class="hot_item_name">
+                        <a href="">상품이름</a>
+                    </div>
                     <div class="hot_item_price">가격</div>
                 </li>
                 <li class="hot_item">
@@ -48,7 +58,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hot_item_name">상품이름</div>
+                    <div class="hot_item_name">
+                        <a href="">상품이름</a>
+                    </div>
                     <div class="hot_item_price">가격</div>
                 </li>
             </ul>
