@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>삼디다스::상품상세페이지</title>
+        <link rel="stylesheet" href="itemStyle.css">
+    </head>
+
+<body>
+    <div class="product_view">
+        <h2 id="shoe_name">shoe_name</h2>
+        <table>
+            <caption>
+                <details class="hide">
+                    <summary>상품정보</summary>
+                    상품코드, 카테고리, 제조사, 판매가, 사이즈 설명
+                </details>
+            </caption>
+            <colgroup>
+            <col style="width:px;">
+            <col>
+            </colgroup>
+            <tbody>
+                <tr>
+                    <th>판매가</th>
+                    <td class="shoe_price">shoe_price</td>
+                </tr>
+                <tr>
+                    <th>상품코드</th>
+                    <td class = "shoe_id">shoe_id</td>
+                </tr>
+                <tr>
+                    <th>제조사/공급사</th>
+                    <td class = "shoe_brand">shoe_brand</td>
+                </tr>
+                <tr>
+                    <th>구매수량</th>
+                    <td>
+                        <div class="length">
+                            <input type="number" min="1" value="1">
+                            <a href="#a">증가</a>
+                            <a href="#a">감소</a>
+                        </div>
+                    </td>
+                </tr>
+                </tbody>
+                </table>
+                <div class="img">
+                    <img src="./image/test_image.png" alt="">
+                </div>
+                <div class="btn">
+                    <a href="#a">구매하기</a>
+                </div>
+            </tbody>
+        </table>
+    </div>
+    <div class="product_images">
+        <img src="./image/sub.jpg">
+    </div>
+</body>
