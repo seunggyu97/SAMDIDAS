@@ -1,0 +1,79 @@
+html {
+    width: 1280px;
+    margin:0 auto;
+}
+/*로그인*/
+.login {
+    border-radius: 9px;
+    border: solid 1px black;
+    padding: 35px 50px;
+    width: 280px;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 440px;
+}
+
+.login_box  {
+    display: block;
+}
+
+.login #login{
+    margin-top: 5px;
+}
+
+.login #register{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+/*회원가입*/
+.register   {
+    border-radius: 9px;
+    border: solid 1px black;
+    padding: 35px 50px;
+    width: 280px;
+    margin-top: 150px;
+    margin-left: 440px;
+    vertical-align: top;
+    height: 440px;
+}
+
+#text_field {
+    width: 30%;
+    float: left;
+}
+
+#text_field p{
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+#input_field {
+    width: 70%;
+    float: right;
+}
+
+#input_field p {
+    margin-bottom: 15px;
+}
+
+/*마이페이지*/
+.mypage {
+    border-radius: 9px;
+    border: solid 1px black;
+    padding: 35px 50px;
+    width: 280px;
+    margin-top: 150px;
+    margin-left: 440px;
+    vertical-align: top;
+    height: 200px;
+}
+
+#mypage_field {
+    width: 70%;
+    float: right;
+}
+
+#mypage_field p {
+    margin-bottom: 15px;
+}
