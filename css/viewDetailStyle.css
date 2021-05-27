@@ -1,0 +1,17 @@
+.biaoti1{
+    border-bottom-style:solid ;
+    border-width: 1px;
+}
+.shangpin{
+    /* width: 1000px; */
+    text-align: center;
+    margin-top: 10px;    
+}
+.shangpin .a{
+    display:inline-block;
+    /* float:; */
+}
+.shangpin .a img{
+    width: 300px;
+    height: 250px;
+}
